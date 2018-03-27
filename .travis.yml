@@ -5,10 +5,10 @@ before_install:
   - rvm install 2.2
   - rvm use 2.2
   - gem install hiptest-publisher
-  - hiptest-publisher -c java-testng.conf --token=$SECRET_TOKEN --only=tests --test-run-id=146353
+  - hiptest-publisher --config-file java-testng.conf --test-run-id 146353 --without=actionwords
 
 script:
   - mvn package
 
 after_script:
-  - hiptest-publisher -c java-testng.conf --token=$SECRET_TOKEN -p "target/surefire-reports/junitreports/TEST-com.testng.coffeemachine.*.xml" --test-run-id=146353
+  - hiptest-publisher --config-file java-testng.conf --push "target/surefire-reports/junitreports/TEST-com.testng.coffeemachine.*.xml" --test-run-id 146353 --push-format junit
