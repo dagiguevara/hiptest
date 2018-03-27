@@ -14,20 +14,20 @@ public class Actionwords {
     
 	public void scenarioSearchPage() {
 		System.out.println("donald");
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stu
 		
 	}
 	public void imInRocksteadyWebsite() {
 		// TODO Auto-generated method stub
-		System.out.println("donald");
+		System.out.println("donald1");
 	}
 	public void iSearchForP1(String string) {
 		// TODO Auto-generated method stub
-		System.out.println("donald");
+		System.out.println("donald2");
 	}
 	public void theUserShouldSeeCatInTheResults() {
 		// TODO Auto-generated method stub
-		System.out.println("donald");
+		System.out.println("donald3");
 	}
 	
 
