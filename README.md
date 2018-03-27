@@ -1,5 +1,5 @@
 # hps-java-testng
-[![Build Status](https://travis-ci.org/hiptest/hps-java-testng.svg?branch=master)](https://travis-ci.org/hiptest/hps-java-testng)
+[![Build Status](https://travis-ci.org/dagiguevara/hiptest.svg?branch=master)](https://travis-ci.org/hiptest/hps-java-testng)
 
 Hiptest publisher samples with Java/TestNG
 
